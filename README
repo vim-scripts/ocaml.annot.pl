@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1197
+
+When editing a OCaml file for which annotations have been compiled, press <F3> and get a message with the type of the value under the cursor.
+
+I didn't want to use the python code from original ocaml.vim in omlet.vim (script_id=1196), so I wrote this tiny hack using an external perl script -- no need for feature "perl". I only print out the first line, because I found no convenient way to print everything without having the message bar to grow big, mess the screen and have a prompt... To be continued.
+
